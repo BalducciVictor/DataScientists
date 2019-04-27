@@ -1,0 +1,17 @@
+main{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+}
+
+.body__nav{
+    width: 133px;
+    height: 100vh;
+    background-color: yellow;
+}
+
+.body__content{
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+}

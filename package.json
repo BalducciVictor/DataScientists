@@ -1,0 +1,24 @@
+{
+  "name": "datascientists",
+  "version": "1.0.0",
+  "description": "Interface big data",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BalducciVictor/DataScientists.git"
+  },
+  "author": "Balducci Victor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BalducciVictor/DataScientists/issues"
+  },
+  "homepage": "https://github.com/BalducciVictor/DataScientists#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3",
+    "sass": "^1.19.0"
+  }
+}
