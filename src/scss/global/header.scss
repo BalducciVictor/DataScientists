@@ -13,22 +13,22 @@
         font-size: 14px;
         font-family: 'Open Sans', sans-serif;
         padding: 13px 1.9rem 13px 1.9rem;
+            &:hover{
+        background-color: #006D44;
+        }
     }
     .language::after{
        content: "\2228";
        margin-left: 5px;
     }
-    .firstHeader__items:hover{
-        background-color: #006D44;
-    }
 }
 
 .secondHeader{
+    z-index: 10;
     height: 75px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-
     background-color: #fff;
     width: 100%;
     .secondHeader__logo{
@@ -76,12 +76,15 @@
         border-radius: 50px;
         box-shadow: 0 2px 4px 0 rgba(0,0,0,.36);
         &:hover{
-            background-color: #248e59 ;
+            background-color: #155736 ;
         }
         &::before{
             content: "\1F512";
             margin-right: 5px;
         }
     }
-
+}
+.is-fixedHeader{
+    position: fixed;
+    top: 0px;
 }

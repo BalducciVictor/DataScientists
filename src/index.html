@@ -7,7 +7,6 @@
 	<link rel="stylesheet" href="scss/vendors/reset.scss">
 	<link rel="stylesheet" href="scss/styles.scss">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-	<script defer src="js/script.js"></script>
 	<title>Datascientists</title>
 </head>
 	<body>
@@ -34,7 +33,7 @@
 				</a>
 			</nav>
 
-			<nav class="secondHeader">
+			<nav class="secondHeader" id="fixeHeader">
 				<section class="secondHeader__logo">
 					<a href=""><img src="assets/logo-bnp.png" alt="logo bnp" ></a>
 					<p class="secondHeader__slogan">La banque d'un monde qui change</p>
@@ -63,15 +62,203 @@
 			</nav>
 		</header>
 		<main>
-			<section class="body__nav">
-				
-			</section>
-			<section class="body__content">
-
+			<nav>
+				<ul class="bodyNav" id="fixeNav">
+					<a href="">
+            <li class="bodyNav__items">
+              <img src="assets/credit-card.svg" alt="picto credit card" class="bodyNav__picto">
+              <p>Gérer ses<br> comptes</p>
+            </li>
+					</a>
+					<a href="">
+						<li class="bodyNav__items">
+              <img src="assets/euro.svg" alt="picto coins" class="bodyNav__picto">
+              <p>Emprunter</p>
+            </li>
+					</a>
+					<a href="">
+            <li class="bodyNav__items">
+              <img src="assets/umbrella.svg" alt="picto umbrella" class="bodyNav__picto">
+              <p>Assurer et<br> sécuriser</p>
+            </li>
+					</a>
+					<a href="">
+						<li class="bodyNav__items">
+              <img src="assets/wallet.svg" alt="picto wallet" class="bodyNav__picto">
+              <p>Epargner</p>
+            </li>
+					</a>
+					<a href="">
+						<li class="bodyNav__items">
+              <img src="assets/statistics.svg" alt="picto statistics" class="bodyNav__picto">
+              <p>Investir en<br>  Bourse</p>
+            </li>
+          </a>
+          <a href="">
+						<li class="bodyNav__items">
+              <img src="assets/phone-book.svg" alt="picto contact" class="bodyNav__picto">
+              <p>Nous<br>  Contacter</p>
+            </li>
+          </a>
+          <a href="">
+						<li class="bodyNav__items">
+              <img src="assets/users.svg" alt="picto users" class="bodyNav__picto">
+              <p>Vous et vos<br>  besoins</p>
+            </li>
+          </a>
+          <a href="">
+						<li class="bodyNav__items">
+              <img src="assets/gift.svg" alt="picto gift" class="bodyNav__picto">
+              <p>Ma banque<br>  et moi</p>
+            </li>
+          </a>
+          <a href="">
+              <li class="bodyNav__items__annex">
+                <img src="assets/ecology.svg" alt="picto earth" class="bodyNav__picto__annex">
+                <p>Ma banque<br>  s'engage</p>
+                <img src="assets/shield.svg" alt="picto shield" class="bodyNav__picto__annex">
+                <p>Sécurité, conseils<br>et bonnes pratiques</p>
+              </li>
+            </a>
+				</ul>
+      </nav>
+			<section class="bodyContent" id="fixeContent">
+        <section class="firstPart">
+          <img src="assets/bghomepage.jpg" alt="woman at bike" class="firstPart__bg">
+          <div class="firstPart__welcome">
+            <h1>BIENVENUE SUR MABANQUE.BNPPARIBAS</h1>
+            <p>Des solutions adaptées pour tous besoins : gestion et<br>
+            ouverture de compte en ligne, simulation de crédit,<br> 
+            assurance, épargne… une banque présente à vos côtés au quotidien.</p>
+          </div>
+          <div class="firstPart__cards">
+            <div class="firstPart__card">
+              <div class="firstPart__cardOne">
+                <p> Jusqu'au 23 juin 2019 inclus</p>
+                <img src="assets/car.svg" alt="picto car">
+                <p>RENAULT CAPTUR en LLD</p>
+                <p>à 199 € TTC / 48 mois</p>
+                <p>sans apport*</p>
+                <button class="firstPart__cardOne__more">J'en profite</button>
+              </div>
+              <div class="firstPart__cardTwo">
+                <p class="">Du 23 avril au 23 juin 2019 inclus, découvrez l’offre spéciale Renault Captur Intens TCe 150 en Location Longue Durée (LLD) réservée aux clients particuliers de BNP Paribas.</p>
+                <p class=""><strong>Services associés compris dans le loyer* :</strong> Entretien et réparation, Assistance +, Prestation pneus, Perte financière</p>
+                <p class="">* Offre soumise à conditions.</p>
+              </div>
+            </div>
+            <div class="firstPart__card ">
+              <div class="firstPart__cardOne firstPart__cardOne--color">
+                  <p> Jusqu’au 30 avril 2019</p>
+                  <img src="assets/gift.svg" alt="picto gift">
+                  <p>Carte Visa Infinite, tentez de</p>
+                  <p>gagner un évènement</p>
+                  <p>exclusif*</p>
+                  <button class="firstPart__cardOne__more">En savoir plus</button>
+              </div>
+              <div class="firstPart__cardTwo">
+                <p class=""><strong>Pour les 100 premiers gagnants, un évènement à remporter au choix parmi :</strong>
+                Une croisière privée sur la Seine
+                Un dîner avec un Chef à domicile
+                Un escape game inédit dans le métro
+                Une visite guidée du marché de Rungis</p>
+                <p class=""><strong>Les 200 gagnants suivants : un stylo S.T. Dupont </strong></p>
+                <p class="">* Offre soumise à conditions, consultez le règlement de l’opération.</p>
+              </div>
+            </div>
+            <div class="firstPart__card">
+              <div class="firstPart__cardOne">
+                <p>Jusqu’au 28 avril 2019 inclus</p>
+                <img src="assets/shopping-bag.svg" alt="picto gift">
+                <p>Donnez vie à vos projets avec</p>
+                <p>le Prêt Travaux :</p>
+                <p>1,49% TAEG fixe</p>
+                <button class="firstPart__cardOne__more">Voir condition</button>
+              </div>
+              <div class="firstPart__cardTwo">
+                <p class="">Pour toute demande en ligne d’un prêt personnel Travaux* de 5 000 € à 50 000 €, sur 12 à 24 mois. Exemple pour un prêt de 5 000 € sur 12 mois (hors assurance facultative) :</p>
+                <p class="">TAEG fixe : 1,49%*
+                Montant des échéances : 420,01 €
+                Montant total dû : 5 040,12 €
+                Un crédit vous engage et doit être remboursé. Vérifiez vos capacités de remboursement avant de vous engager.</p>
+                <p class="">* Offre soumise à conditions.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="secondPart">
+          <h2> BNP PARIBAS VOUS ACCOMPAGNE DANS VOS PROJETS</h2>
+          <p>Découvrez nos simulateurs en ligne.</p>
+          <div class="secondPart__block">
+            <div class="secondPart__blockOnes">
+              <div class="secondPart__blockOne">
+                <img src="assets/statistics1.svg" alt="pisto statistics">
+                <h3>LA BOURSE SUR MOBILE</h3>
+                <p>Les cours, les actualités, vos ordres.</p>
+                <a href="">
+                <button>Découvrir</button>
+                </a>
+              </div>
+              <div class="secondPart__blockOne">
+                <img src="assets/calculator.svg" alt="pisto calculator">
+                <h3>SIMULEZ VOTRE PRÊT DIVERS</h3>
+                <p>Et donnez vie à vos projets.</p>
+                <a href="">
+                <button>En savoir plus</button>
+                </a>
+              </div>
+            </div>
+            <div class="secondPart__blockTwo">
+              <img src="assets/Visuel-assu-auto.jpg" alt="clef de voiture">
+              <h3>VOTRE DEVIS EN LIGNE D’ASSURANCE AUTO</h3>
+              <p>Réalisez votre devis en ligne.</p>
+              <a href="">
+              <button>Je decouvre</button>
+              </a>
+            </div>
+          </div>
+        </section>
+        <section class="thirdPart">
+          <h2>MA BANQUE EN PRATIQUE</h2>
+          <p>Fonctionnalités et services pour améliorer votre utilisation de la banque au quotidien.</p>
+          <div class="thirdPart__Block">
+            <div class="thirdPart__Blockcards">
+              <div class="thirdPart__card">
+                  <img src="assets/PFM-HPG.jpg" alt="clef de voiture">
+                  <h3>Gérez vos finances avec plus de simplicité</h3>
+                  <p>La catégorisation de vos opérations évolue : libellés simplifiés, nouvelles catégories et sous-catégories, visualisation de vos opérations par catégorie sur 13 mois glissants.</p>
+                  <a href="">
+                  <button>En savoir plus</button>
+                  </a>
+              </div>
+              <div class="thirdPart__card">
+                  <img src="assets/visuel-voyager-a-letranger.jpg" alt="clef de voiture">
+                  <h3>Vous envisagez un voyage à l’étranger ?</h3>
+                  <p>Découvrez nos conseils pour vous accompagner avant, pendant et après votre voyage : nos astuces et bons plans pour vous aider à préparer et vivre votre séjour à l’étranger.</p>
+                  <a href="">
+                  <button>Je decouvre</button>
+                  </a>
+              </div>
+            </div>
+            <div class="thirdPart__map">
+              <img src="assets/maps.png" alt="map">
+            </div>
+              <div class="thirdPart__form">
+              <form action="" class="">
+                  <label for="" class="">Trouver une agence</label>
+                  <br>
+                  <input type="text" placeholder="Adress,ville,destination">
+                  <input type="submit">
+              </form>
+            </div>
+          </div>
+        </section>
 			</section>
 		</main>
 		<footer>
 
 		</footer>
+		<script src="js/noframework.waypoints.min.js"></script>
+		<script src="js/script.js"></script>
 	</body>
 </html>
